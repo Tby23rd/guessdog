@@ -40,10 +40,10 @@ const GuessingGame: React.FC = () => {
         setShowAnswer(true);
       }
     } else {
-      alert('That breed does not exist. Please try again.');
+      alert(`Are you serious right now?  ${userGuess} is not a dog name`);
     }
   } catch (error) {
-    alert('That breed does not exist. Please try again.');
+    alert(`Are you serious right now?  ${userGuess} is not a dog name`);
   }
  };
 
@@ -51,7 +51,7 @@ const GuessingGame: React.FC = () => {
   <div className={styles.container}>
     <h1>Guess the Breed</h1>
     <div className={styles.imageContainer}>
-      <img src={dogImage} alt="Random dog" />
+      <img src={dogImage} alt="Random dog"  />
     </div>
     <div className={styles.formContainer}>
       <form onSubmit={handleGuessSubmit}>
