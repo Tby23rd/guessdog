@@ -1,0 +1,44 @@
+/* GuessingGame.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(12, 85, 102);
+    color: white;
+    font-size:x-large;
+  }
+  
+  .imageContainer {
+    margin-bottom: 20px;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inputText {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #3300ff;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
